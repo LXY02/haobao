@@ -1,0 +1,173 @@
+body, p, img, dl, dt, dd, ul, ol, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+body { position: relative; font: 12px/24px "Microsoft YaHei", Arial; min-width: 960px; }
+ul, ol { list-style: none; }
+img { border: 0 none; }
+input, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+s, em, i { font-style: normal; text-decoration: none; }
+.cf { *zoom: 1; }  /*清除浮动*/
+.cf:after { clear: both; content: "."; display: block; height: 0; overflow: hidden; visibility: hidden; zoom: 1; }
+a {
+    text-decoration: none;
+}
+/*定义页面的基础宽度为960px*/
+.w {
+    width:960px;
+    margin: 0 auto;
+}
+
+body {
+    background: url("../images/bg.png") ;
+}
+/*标题logo区域*/
+.logo {
+    margin-top: 35px;
+}
+/*导航区*/
+/*上下两条横线*/
+.top-border,
+.bottom-border,
+.footer .footer-border
+{
+    height: 8px;
+    background-color: #822619;
+}
+/*导航区主体部分*/
+.nav .nav-list-wrap {
+    margin: 3px 0;
+    background: #1B6568 url("../images/diamond.png") repeat-x center ;
+    height: 46px;
+}
+.nav .nav-list-wrap li {
+    float: left;
+    margin: 0 22px;
+    line-height: 46px;
+    font-size: 20px;
+
+}
+.nav .nav-list-wrap .curr a {
+    color: #e0e2b1;
+}
+.nav .nav-list-wrap li a {
+    color: #94c4c7;
+    text-decoration: none;
+}
+.nav .nav-list-wrap li a:hover {
+    color: #ebe9d7;
+}
+.nav .nav-list-wrap .waiter {
+    position:absolute;
+    top:-147px;
+    right:0;
+}
+.nav .nav-list-wrap .nav-list-w {
+    position: relative;
+}
+/*页脚部分*/
+.footer-content {
+    width: 1400px;
+    position: absolute;
+    bottom: 13px;
+    left: 195px;
+}
+
+.footer .w div {
+    float: left;
+}
+.footer .footer-content-left a:nth-of-type(2) {
+    margin:20px 22px;
+}
+/*页脚中间部分*/
+.footer {
+    margin-top: 30px;
+    color: #fff;
+}
+.footer a {
+    color: #fff;
+}
+
+.footer .footer-content-bg {
+    height: 156px;
+    background: #1B6568;
+    margin-top: 3px;
+    padding-top: 24px;
+}
+
+.footer .footer-content-left {
+    width: 222px;
+}
+.footer .footer-content-left h1 {
+    font-size: 18px;
+}
+.footer .footer-content-left p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/*页脚中间部分*/
+.footer .footer-content-mid {
+    width: 400px;
+    margin:0 13px;
+}
+.footer .footer-content-mid h1 {
+    font-size: 51px;
+    margin-bottom: 13px;
+    text-align: center;
+    line-height: 1;
+}
+.footer .footer-content-mid ul {
+    text-align: center;
+}
+.footer .footer-content-mid li {
+    float: left;
+    font-size: 14px;
+    padding: 0 21px;
+
+}
+.footer .footer-content-mid li:not(:last-child) {
+    border-right: 1px solid #fff;
+}
+.footer .footer-content-mid .last-li {
+    border-right: none;
+}
+.footer .footer-content-mid p {
+    margin-top: 6px;
+    text-align: center;
+}
+/*右边部分*/
+.footer .footer-content-right {
+    width: 308px;
+    margin-right: -124px;
+    margin-left: 29px;
+}
+.footer .footer-content-right h1 {
+    font-size: 18px;
+    font-weight: normal;
+}
+.footer .footer-content-right .txt {
+    border: none;
+    background: url("../images/email.png");
+    display: block;
+    width:190px;
+    height: 28px;
+    text-align: center;
+    margin: 11px auto;
+    padding: 0 20px;
+    outline: none;
+}
+
+.footer .footer-content-right .subscribe {
+    font-size: 20px;
+    border: 3px solid #E2E3D2;
+    display: block;
+    margin:10px auto auto;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 3px;
+    background: #822619;
+    text-decoration: none;
+}
+.footer .footer-content-right .subscribe:hover {
+    background: #A83121;
+}

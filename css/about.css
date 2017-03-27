@@ -1,0 +1,23 @@
+.content {
+    height: 1000px;
+    padding: 46px 36px;
+    border: 8px solid  #822619;
+    margin-top: 36px;
+    border-radius: 10px;
+    background: #fff;
+}
+.content h1 {
+    font-size: 36px;
+    color: #1b6568;
+}
+.content h2 {
+    margin: 46px 0;
+    color: #822619;
+}
+.content p {
+    margin: 40px 0;
+    color: #4c1407;
+    margin-bottom: 18px;
+}
+
+

@@ -1,0 +1,51 @@
+.content {
+    padding: 0;
+    height: 1000px;
+    border: 8px solid  #822619;
+    margin-top: 36px;
+    border-radius: 10px;
+    background: #ebe9d7;
+}
+h1 {
+    font-size: 36px;
+    color: #1b6568;
+}
+h2 {
+    margin: 20px 0;
+    color: #822619;
+    font-size: 24px;
+    font-weight: normal;
+}
+p {
+    margin: 20px 0;
+    color: #4c1407;
+
+}
+/*左边区域*/
+.content .left {
+    width: 561px;
+    height: 916px;
+    border-right: 8px solid #822619;
+    padding:46px 36px;
+    padding-right: none;
+}
+.content .left img {
+    display: block;
+    width: 483px;
+    margin: 10px auto;
+}
+.content .left div {
+    width: 100%;
+    height: 146px;
+    border-bottom: 4px dotted #822619;
+}
+    /*右边区域*/
+.content .right {
+    width: 312px;
+    height: 954px;
+    padding-top:46px;
+    /*padding-top:46px;*/
+}
+.content div {
+    float: left;
+}
